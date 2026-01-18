@@ -1,4 +1,4 @@
-- ### My first project
+ ### My first project
 
 This is my first Github project
 
@@ -7,7 +7,7 @@ I am learning :
 -GitHub basics
 
 
-- ### Sql practice for Data Science
+ ### Sql practice for Data Science
 
 This repository contains SQL practice files created as part of my learning journey in
 SQL and Data Science. The queries cover fundamental SQL concepts used in data analysis.
@@ -23,8 +23,8 @@ SQL and Data Science. The queries cover fundamental SQL concepts used in data an
 - Update and Delete statements
 - ALTER and DROP table operations
 
-- ### Files 
+ ### Files 
 - sql_practice.sql
 
-- ### Author
+ ### Author
 - Likitha.U
