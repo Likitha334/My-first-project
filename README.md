@@ -5,6 +5,6 @@ This is my first Github project
 I am learning :
 -SQL for Data Science
 -GitHub basics
-##Files 
 
+##Files 
 - sql_practice.sql
