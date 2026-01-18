@@ -1,3 +1,10 @@
+-- =========================================
+-- SQL PRACTICE FILE
+-- Author: Likitha U
+-- Description: Basic SQL practice queries
+-- Database: MySQL / PostgreSQL compatible
+-- =========================================
+
 -- 1. CREATE DATABASE
 CREATE DATABASE sql_practice_db;
 
