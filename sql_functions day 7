@@ -1,0 +1,3 @@
+SELECT UPPER(name) FROM employees;
+SELECT LENGTH(name) FROM employees;
+SELECT ROUND(AVG(salary),2) FROM employees
