@@ -12,19 +12,22 @@ I am learning :
 This repository contains SQL practice files created as part of my learning journey in
 SQL and Data Science. The queries cover fundamental SQL concepts used in data analysis.
 
+This repository covers SQL from basics to advanced concepts.
+
 ### Topics Covered
+- DDL & DML
+- WHERE, LIKE, IN
+- Aggregate functions
+- GROUP BY & HAVING
+- JOINS
+- Subqueries
+- Constraints
+- Views & Indexes
 
-- Create Database and Tables
-- Insert and Select queries
-- Filtering using WHERE
-- Sorting using ORDER BY
-- Aggregate functions (COUNT, SUM, AVG, MIN, MAX)
-- GROUP BY and HAVING
-- Update and Delete statements
-- ALTER and DROP table operations
 
- ### Files 
-- sql_practice.sql
+## Database
+MySQL (Compatible with most SQL DBs)
 
- ### Author
+
+### Author
 - Likitha.U
