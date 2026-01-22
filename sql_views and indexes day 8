@@ -1,0 +1,4 @@
+CREATE VIEW high_salary AS
+SELECT name, salary FROM employees WHERE salary > 50000;
+
+CREATE INDEX idx_salary ON employees(salary);
