@@ -1,0 +1,61 @@
+import pandas as pd
+cal_house_df=pd.read_csv("./sample_data/california_housing_train.csv")
+print(cal_house_df)
+cont_df=pd.read_csv("./Continent.csv")
+cust_df=pd.read_csv("./Customers.csv")
+display(cont_df)
+display(cust_df)
+df_region_id.isnull().sum()
+import matplotlib.pyplot as plt
+print(plt.style.available)
+plt.style.use('_classic_test_patch')
+import numpy as np
+month = np.arange(1,13)
+prices=[101,112,222,990,335,667,897,345,786,453,453,334]
+plt.plot(month,prices,color='b',marker='+')
+plt.show()
+plt.title("yearly prices")
+plt.show()
+plt.xlabel("month")
+plt.ylabel("price")
+plt.title('yearly prices')
+plt.grid()
+plt.grid(linestyle=='-.',linewidth='0.5',color='green'
+from matplotlib.lines import lineStyles
+month=np.arange(1,13)
+prices=[101,230,789,123,69,221,210,500,567,120,122,300]
+sales=[210,335,678,900,123,567,890,234,78,900,765,500]
+plt.plot(month,prices,color='g',marker='+')
+plt.xlabel(month)
+plt.ylabel(price)
+fiq, ax = plt.subplots(2,2)
+x = np.linspace(0,8,1000)
+ax[0, 0].plot(x, x**2,'g')
+ax[0, 0].title.set
+import pandas as pd
+import matplotlib.pyplot as plt
+import plotly.express as px
+df=px.data.tips()
+plt.figure(figsize=(8,6))
+for day in df['day'].unique():
+  subset=df[df['day']==day]
+  plt.hist(
+      subset['day'],
+      bins=4,
+      label=day,
+      edgecolor='black'
+  )
+  plt.title('number of records per day(tips dataset)')
+  plt.xlabel('day of the week')
+  plt.ylabel('frequency')
+  plt.legend(title='day of week')
+  plt.grid(True)
+  plt.tight_layout()
+  plt.show()
+plt.boxplot(df['total_bill'])
+plt.title('distribution of bmi')
+plt.xlabel('index')
+plt.show()
+df_insurance=pd.read_csv("./insurance.csv")
+display(df_insurance)
+
