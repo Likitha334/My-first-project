@@ -1,0 +1,53 @@
+import pandas as pd
+diwali_df=pd.read_csv("Diwali.csv", encoding='latin1')
+display (diwali_df)
+diwali_df.isnull().sum()
+diwali_df.drop('Status',axis=1,inplace=True)
+display(diwali_df)
+diwali_df.isnull().sum()
+diwali_df.dropna(inplace=True)
+display(diwali_df)
+diwali_df.isnull().sum()
+1..COUNTPLOT
+import seaborn as sns
+import matplotlib.pyplot as plt
+ax=sns.countplot(data=diwali_df, x='Gender',palette='Set1')
+for bars in ax.containers:
+  ax.bar_label(bars)
+plt.title('count of Gender')
+plt.show()
+2...BARPLOT
+sns.barplot(x='Gender',y='Amount',data=diwali_df,color='yellow')
+plt.title('amount spend by genders')
+ax=sns.countplot(data=diwali_df, x='Gender')
+for bars in ax.containers:
+  ax.bar_label(bars)
+plt.title(' count of Gender')
+plt.show()
+3..HEATMAP
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Define num_cols with numerical columns from diwali_df
+num_cols = ['Age', 'Orders', 'Amount'] # Assuming these are the numerical columns for correlation
+
+plt.figure(figsize=(12,6))
+sns.heatmap(diwali_df[num_cols].corr(), annot=True, cmap='coolwarm')
+plt.title("Correlation Heatmap")
+plt.show()
+6..LINE GRAPH
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(14, 6))
+sns.lineplot(data=diwali_df, x='State', y='Orders',estimator=sum, sort=True,color='green')
+plt.title('Line Graph: Total Orders by State')
+plt.xticks(rotation=45)
+plt.show()
+7..PIECHART
+plt.figure(figsize=(8,8))
+diwali_df['Product_Category'].value_counts().head(6).plot.pie(autopct='%1.1f%%')
+plt.title("Most Common product Categories")
+plt.ylabel("orders")
+plt.show()
+
